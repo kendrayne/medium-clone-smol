@@ -215,7 +215,7 @@ a:hover {
     /* grid-area: two; */
 }
 
-#trending > three {
+#trending > .three {
     grid-area: three;
 }
 
