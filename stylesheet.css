@@ -215,13 +215,13 @@ a:hover {
 .trending-icon {
     width: 50px;
     position: relative;
-    left: 100px;
+    left: 115px;
     bottom: 4px;
 
 }
 .trending-txt {
     position: absolute;
-    left: 175px;
+    left: 190px;
     top: 730px;
     margin-top: 60px;
     font-family: Dosis;
