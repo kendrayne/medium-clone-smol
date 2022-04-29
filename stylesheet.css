@@ -2,7 +2,318 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dosis:wght@200&family=Josefin+Sans:wght@100&family=Lato:wght@100&family=Lora:ital@1&family=Roboto:wght@100;400&family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300;400&family=Dosis:wght@200&family=Josefin+Sans:wght@100&family=Lato:wght@100&family=Lora:ital@1&family=Roboto:wght@100;300;400&family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dosis:wght@200&family=Josefin+Sans:wght@100&family=Lato:wght@100&family=Lora:ital@1&family=Roboto:wght@100;300;400&family=Square+Peg&display=swap');
+
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+body {
+    font-family: Roboto,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    background: ivory;
+
+
+}
+
+.navbar {
+    position: fixed;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: -98px;
+    margin-left: -18px;
+    /* padding-right: 100%; */
+    padding-bottom: 40px;
+    padding-right: 100%;
+    background-color: #ffc017;
+    z-index: 1;
+}
+
+
+.logo {
+    width: 210px;
+    display: flex;
+    margin-left: 188px;
+    margin-top: 40px;
+
+}
+
+.nav-options {
+    display: grid;
+    grid-template-columns: repeat(5, 120px);
+    position: fixed;
+    margin-left: 66%;
+    top: 40px;
+    justify-content: space-around;
+    width: 300px;
+    z-index: 1;
+
+}
+
+.nav-options>a.txt.membership {
+    margin-left: 40px;
+}
+
+.nav-options>a.txt.write {
+    margin-left: 50px;
+}
+
+.txt {
+    font-size: 13.5pt;
+
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+
+}
+
+.gs-button {
+    width: 140px;
+    font-weight: lighter;
+    height: 50px;
+    border-radius: 99em;
+    color: white;
+    font-size: 13pt;
+    background-color: rgb(0, 0, 0);
+    /* position: fixed; */
+    right: 250px;
+    margin-top: -12px;
+    margin-left: 20px;
+    opacity: .87;
+}
+
+
+
+.intro {
+
+    height: 600px;
+    background: linear-gradient(#ffc017, #ffd3a0);
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgba(150, 125, 48, 0.8);
+    ;
+    margin-left: -9px;
+    margin-right: -8px;
+    padding-left: 370px;
+    padding-right: 370px;
+    border-width: 2px;
+    position: static;
+    margin-top: 97px;
+}
+
+.curioush1 {
+
+
+    font-family: Martel;
+    font-weight: lighter;
+    font-size: 114pt;
+    width: 800px;
+    position: static;
+    margin-left: -200px;
+    margin-bottom: -5px;
+
+
+}
+
+.discoverh2 {
+    font-family: Roboto,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    position: static;
+    width: 600px;
+    font-size: 26pt;
+    font-weight: lighter;
+    margin-bottom: -15px;
+    margin-left: -200px;
+
+}
+
+.readbutton {
+    width: 300px;
+    height: 55px;
+    font-weight: lighter;
+
+    font-family: Roboto;
+    border-radius: 99em;
+
+    font-size: 22pt;
+    background-color: rgb(0, 0, 0);
+    position: static;
+    margin-left: -200px;
+
+    margin-top: 75px;
+    opacity: .94;
+    /* z-index: 0; */
+}
+
+a:hover {
+    /* background-color: rgb(50, 9, 50); */
+    color: rgb(86, 21, 86)
+}
+
+.readbutton:hover,
+.gs-button:hover {
+    background-color: rgb(70, 14, 70)
+}
+
+.readbutton a,
+.gs-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.readbutton a:hover,
+.gs-button a:hover {
+    color: white;
+
+    text-decoration: none;
+}
+
+.deviruchi {
+    position: absolute;
+    top: 460px;
+    right: 100px;
+    z-index: 0;
+
+
+}
+
+
+
+.spacer {
+    padding: 40px 0px 16px;
+}
+
+.trending-icon {
+    width: 50px;
+    position: relative;
+    left: 205px;
+    bottom: 4px;
+
+}
+
+.trending-txt {
+    position: absolute;
+    left: 275px;
+    top: 730px;
+    margin-top: 20px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    font-size: 18pt;
+    /* text-shadow: 1px 1px 1px #ff8317; */
+    font-family: Roboto,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+
+}
+
+
+#trending {
+
+    margin-top: 80px;
+    margin-left: 10%;
+    /* width: 100%; */
+    height: 125px;
+    display: grid;
+    grid-template-rows: repeat(2, 450px);
+    grid-template-columns: repeat(3, 505px);
+    grid-template-areas:
+        "one two three"
+        "four five six";
+    /* grid-template-columns: repeat(3, 300px); */
+    gap: 10px;
+    /* grid-template-rows: repeat(2, 300px); */
+    list-style: none;
+}
+
+.ttxt {
+    color: #61d5c5;
+
+    font-size: 18pt;
+    text-decoration: none;
+
+}
+
+#trending>.one {
+    grid-area: one;
+
+    /* grid-row: 1/2; */
+    /* grid-area: one; */
+
+}
+
+#trending>.two {
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    grid-area: two;
+
+    /* grid-area: two; */
+}
+
+#trending>.three {
+
+    grid-area: three;
+}
+
+#trending>.four {
+
+    grid-area: four;
+}
+
+#trending>.five {
+    grid-area: five;
+
+}
+
+#trending>.six {
+    grid-area: six;
+
+
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
+
+
+
+
+
 @media only screen and (min-width: 600px) {
+
 body {
 font-family: Roboto,
 -apple-system,
