@@ -37,7 +37,7 @@ z-index: 1;
 .logo {
     width: 210px;
     display: flex;
-    margin-left: 417px;
+    margin-left: 188px;
     margin-top: 40px;
 
 }
@@ -46,7 +46,7 @@ z-index: 1;
     display: grid;
     grid-template-columns: repeat(5, 120px);
     position: fixed;
-    margin-left: 59%;
+    margin-left: 66%;
     top: 40px;
 justify-content: space-around;
 width: 300px;
@@ -54,6 +54,12 @@ z-index: 1;
 
 }
 
+.nav-options > a.txt.membership {
+    margin-left: 40px;
+}
+.nav-options>a.txt.write {
+    margin-left: 50px;
+}
 
 .txt {
 font-size: 13.5pt;
@@ -72,9 +78,10 @@ color: black;
     color: white;
     font-size: 13pt;
     background-color: rgb(0, 0, 0);
-    position: fixed;
+    /* position: fixed; */
     right: 250px;
-    top: 26px;
+margin-top: -12px;
+margin-left: 20px;
     opacity: .87;
 }
 
@@ -86,6 +93,7 @@ color: black;
     background: linear-gradient(#ffc017, #fff3e5);
     border-top: solid;
     border-bottom: solid;
+    /* border-color: #00000050; */
     margin-left: -9px;
     margin-right: -8px;
     padding-left: 370px;
@@ -102,7 +110,7 @@ color: black;
         font-size: 114pt;
         width: 800px;
         position: static;
-        margin-left: 40px;
+        margin-left: -200px;
         margin-bottom: -5px;
 
 
@@ -125,7 +133,7 @@ width: 600px;
 font-size: 26pt;
 font-weight: lighter;
 margin-bottom: -15px;
-margin-left: 40px;
+margin-left: -200px;
 
 }
 
@@ -140,14 +148,18 @@ margin-left: 40px;
     font-size: 22pt;
     background-color: rgb(0, 0, 0);
     position: static;
-    margin-left: 50px;
+    margin-left: -200px;
 
-    margin-top: 50px;
+    margin-top: 75px;
     opacity: .94;
     /* z-index: 0; */
 }
+a:hover {
+        /* background-color: rgb(50, 9, 50); */
+        color: rgb(86, 21, 86)
+}
 .readbutton:hover {
-    background-color: rgb(50, 9, 50)
+    background-color: rgb(70, 14, 70)
 }
 .readbutton a {
     color: white;
@@ -170,4 +182,55 @@ margin-left: 40px;
 .yeet {
     height: 5000px;
 }
+}
+
+.spacer {
+    padding: 40px 0px 16px;
+}
+
+#trending {
+    margin: 30px;
+    /* width: 100%; */
+    height: 125px;
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(3, 500px);
+    grid-template-areas:
+    "one two three"
+    "four five six";
+    /* grid-template-columns: repeat(3, 300px); */
+    gap: 10px;
+    /* grid-template-rows: repeat(2, 300px); */
+    }
+#trending > .one {
+    grid-area: one;
+    /* grid-row: 1/2; */
+    /* grid-area: one; */
+}
+
+#trending > .two {
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    grid-area: two;
+    /* grid-area: two; */
+}
+
+.trending.three {
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+
+.four {
+grid-column: 1/3;
+grid-row: 2/2;
+}
+
+.five {
+grid-column: 2/3;
+grid-row: 2/2;
+}
+
+.six {
+    grid-column: 3/3;
+    grid-row: 2/2;
 }
