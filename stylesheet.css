@@ -24,7 +24,7 @@
 /* main work area for now. */
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
 
 body {
     overflow-x: hidden;
@@ -40,7 +40,7 @@ Cantarell,
 "Helvetica Neue",
 sans-serif;
 background: ivory;
-
+margin-right: 0px;
 
 }
 
@@ -55,6 +55,7 @@ background: ivory;
     padding-right: 100%;
     background-color: #ffc017;
 z-index: 1;
+margin-right: 0px;
 }
 
 
