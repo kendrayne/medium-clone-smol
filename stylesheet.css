@@ -297,6 +297,7 @@ a:hover {
 .trending-txt {
     position: absolute;
     left: 195px;
+
     top: 730px;
     margin-top: 60px;
     font-family: Dosis;
@@ -327,13 +328,13 @@ sans-serif;
 
     display: grid;
     grid-template-rows: repeat(2, 255px);
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 350px);
 
     grid-template-areas:
     "one two three"
     "four five six";
     /* grid-template-columns: repeat(3, 300px); */
-    gap: 40px;
+    gap: 50px;
     /* grid-template-rows: repeat(2, 300px); */
     list-style: none;
 
