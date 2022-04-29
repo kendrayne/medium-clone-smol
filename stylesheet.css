@@ -544,9 +544,10 @@ sans-serif;
     "one two three"
     "four five six";
     /* grid-template-columns: repeat(3, 300px); */
-    gap: 10px;
+    gap: 0px;
     /* grid-template-rows: repeat(2, 300px); */
     list-style: none;
+
     }
 
     .ttxt {
@@ -558,7 +559,7 @@ sans-serif;
     }
 #trending > .one {
     grid-area: one;
-
+    
     /* grid-row: 1/2; */
     /* grid-area: one; */
 
@@ -568,6 +569,7 @@ sans-serif;
     /* grid-column: 2/3;
     grid-row: 1/2; */
     grid-area: two;
+
 
     /* grid-area: two; */
 }
