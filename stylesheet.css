@@ -27,7 +27,7 @@
 @media only screen and (min-width: 600px) {
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 font-family: Roboto,
 -apple-system,
 BlinkMacSystemFont,
@@ -336,6 +336,21 @@ grid-area: five;
     margin-left: -25px;
     padding-right: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
