@@ -327,13 +327,13 @@ sans-serif;
 
     display: grid;
     grid-template-rows: repeat(2, 255px);
-    grid-template-columns: repeat(3, 505px);
+    grid-template-columns: repeat(3, 300px);
 
     grid-template-areas:
     "one two three"
     "four five six";
     /* grid-template-columns: repeat(3, 300px); */
-    gap: 0px;
+    gap: 40px;
     /* grid-template-rows: repeat(2, 300px); */
     list-style: none;
 
