@@ -179,6 +179,7 @@ margin-left: -200px;
     opacity: .94;
     /* z-index: 0; */
 }
+
 a:hover {
         /* background-color: rgb(50, 9, 50); */
         color: #561556
@@ -265,8 +266,8 @@ sans-serif;
 
     /* inner grids for trending articles' addtl information */
 
-    .inner-grid a {
-        width: 20px;
+    .inner-grid a, h3 {
+
 text-decoration: none;
 color:rgba(0, 0, 0, 0.788);
 font-family: Roboto,
@@ -282,7 +283,7 @@ Cantarell,
 sans-serif;
     }
 
-    .ttxt {
+   .inner-grid .ttxt {
         color:#326c7b;
 
         font-size: 18pt;
