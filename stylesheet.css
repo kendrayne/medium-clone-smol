@@ -181,7 +181,7 @@ margin-left: -200px;
 }
 a:hover {
         /* background-color: rgb(50, 9, 50); */
-        color: rgb(86, 21, 86)
+        color: #561556
 }
 .readbutton:hover,
 .gs-button:hover {
@@ -227,7 +227,7 @@ a:hover {
     font-family: Dosis;
     text-transform: uppercase;
     font-size: 18pt;
-    /* text-shadow: 1px 1px 1px #ff8317; */
+    text-shadow: 1px 1px 3px #782278ac;
 font-family: Roboto,
 -apple-system,
 BlinkMacSystemFont,
@@ -266,7 +266,7 @@ sans-serif;
     /* inner grids for trending articles' addtl information */
 
     #inner-grid {
-        
+
     }
 
     .ttxt {
