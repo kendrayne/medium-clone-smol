@@ -370,6 +370,10 @@ sans-serif;
 
     }
 
+    .inner-grid .ttxt:hover {
+        color:#561556;
+    }
+
     .avatar {
         width: 40px;
     }
