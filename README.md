@@ -16,6 +16,7 @@ been fun to throw pieces of myself into this too.  ![poring](https://user-images
 
 
 I will be pushing my progress to the following link provided. Feel free to take a peek at it, and of course, any and all feedback is welcome!
+kendrayne@gmail.com
 
 https://mysmolclone.netlify.app/
 
