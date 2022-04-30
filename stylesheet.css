@@ -286,21 +286,19 @@ a:hover {
 .deviruchi::after {
     --scale: 0;
 position: absolute;
-top: -1rem;
-left: 50%;
+top: 4rem;
+left: 45%;
 transform: translateX(-50%) translateY(-100%) scale(var(--scale));
-transition: 150ms transform;
-transform-origin: bottom center;
+transition: 200ms transform;
+transform-origin: bottom left;
 }
 .deviruchi::before {
     content: attr(data-tooltip);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18pt;
-    /* font-weight: bold; */
+    font-size: 20pt;
     color:#561556;
     width: max-content;
     max-width: 100%;
-    /* background:#ffc017; */
 }
 
 .deviruchi:hover {
