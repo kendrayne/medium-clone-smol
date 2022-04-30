@@ -358,6 +358,10 @@ Cantarell,
 "Helvetica Neue",
 sans-serif;
     }
+    .inner-grid h3 {
+        margin-left: -15px;
+        word-spacing: 
+    }
 
    .inner-grid .ttxt {
         color:#326c7b;
@@ -365,6 +369,10 @@ sans-serif;
         font-size: 18pt;
         text-decoration: none;
 
+    }
+
+    .avatar {
+        width: 50px;
     }
 #trending > .one {
     grid-area: one;
