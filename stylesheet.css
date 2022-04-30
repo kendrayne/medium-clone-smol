@@ -323,7 +323,7 @@ sans-serif;
 #trending {
 
     display: grid;
-    grid-template-rows: repeat(2, 255px);
+    grid-template-rows: repeat(2, 160px);
     grid-template-columns: repeat(3, 425px);
     justify-content:space-evenly;
     align-items: center;
@@ -365,7 +365,7 @@ sans-serif;
    .inner-grid .ttxt {
         color:#326c7b;
 
-        font-size: 18pt;
+        font-size: 12pt;
         text-decoration: none;
 
     }
