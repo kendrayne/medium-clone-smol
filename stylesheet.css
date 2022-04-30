@@ -430,29 +430,28 @@ grid-area: five;
 
 /* Discover Navigation Bar */
 
-#discover {
-    position: sticky;
+#button-container {
+    /* position: sticky; */
 
     display: grid;
-    grid-template-rows: repeat(3, 60px);
-    grid-template-columns: repeat(3, 295px);
+    grid-template-rows: repeat(3, 25px);
+    grid-template-columns: repeat(3, 125px);
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: 10%;
-    margin-right: -10%;
+    margin-right: 5%;
     grid-template-areas:
     "b1 b2 b3"
     "b4 b5 b6"
     "b7 b8 b9";
 
-    gap: 75px;
-
+gap: 5px;
 
 
 }
 
 
-/* .discover-txt {
+.discover-txt {
     color:rgba(17, 4, 17, 0.788);
     margin-bottom: 25%;
     margin-left: 45%;
@@ -460,16 +459,13 @@ grid-area: five;
     font-size: larger;
     text-transform: uppercase;
     width:max-content;
-} */
-
-
-#discover > .button-container {
-position: relative;
-top: 50px;
-left: 125px;
 }
 
-#discover > .button-container > .b {
+
+#button-container > .b {
+/* position: sticky; */
+justify-self: center;
+
 padding: 5px;
 background-color: transparent;
 border-color:#326c7b28;
@@ -478,31 +474,33 @@ border: width 0.1em;
 margin: 1px;
 }
 
-#discover > .b1 {
+#button-container > .b.bone {
     grid-area: b1;
+    position: fixed;
+    top: 0;
 }
-#discover > .b2 {
+#button-container> .b.btwo {
     grid-area: b2;
 }
-#discover > .b3 {
+#button-container> .b.bthree {
     grid-area: b3;
 }
-#discover > .b4 {
+#button-container > .b.bfour {
     grid-area: b4;
 }
-#discover > .b5 {
+#button-container > .b.bfive {
     grid-area: b5;
 }
-#discover>.b6 {
+#button-container > .b.bsix {
     grid-area: b6;
 }
-#discover > .b7 {
+#discover > .b.bseven {
     grid-area: b7;
 }
-#discover > .b8 {
+#discover > .b.beight {
     grid-area: b8;
 }
-#discover > .b9 {
+#discover > .b.bnine {
     grid-area: b9;
 }
 
@@ -516,4 +514,7 @@ margin-top: 15%;
 font-size: 14pt;
 }
 
+.scroll {
+    height: 5000px;
+}
 }
