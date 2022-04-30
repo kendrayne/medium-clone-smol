@@ -424,6 +424,18 @@ grid-area: five;
     padding-right: 30px;
 }
 
+/* Discover Navigation Bar */
+
+.discover-container {
+    display: grid;
+    grid-template-rows: repeat(3, 160px);
+    grid-template-columns: repeat(3, 325px);
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-right: -10%;
+
+}
 
 
 footer {
