@@ -451,7 +451,7 @@ grid-area: five;
     "b4 b5 b6"
     "b7 b8 b9";
 
-gap: 10px;
+gap: 3px;
 
 
 }
@@ -461,8 +461,8 @@ gap: 10px;
     color:rgba(17, 4, 17, 0.788);
     /* margin-bottom: 25%; */
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom: 80px;
+    right: 130px;
     font-weight: bolder;
     font-size: 12pt;
     text-transform: uppercase;
@@ -473,10 +473,10 @@ gap: 10px;
 
 #button-container > .b {
 /* position: sticky; */
-justify-self: center;
-
+/* justify-self:end; */
+width:max-content;
 padding: 3px;
-
+width: 100%;
 background-color: transparent;
 border-color:#326c7b28;
 border-radius: .4em;
@@ -494,7 +494,7 @@ font-size: 14pt;
 }
 
 .scroll {
-    height: 600px;
+    height: 1000px;
     padding-left: 50px;
 }
 }
