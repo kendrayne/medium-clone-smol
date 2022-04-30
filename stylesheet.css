@@ -280,14 +280,13 @@ a:hover {
     top: 460px;
     right: 100px;
     z-index: 0;
-
 }
 .deviruchi::before,
 .deviruchi::after {
     --scale: 0;
 position: absolute;
 top: 4rem;
-left: 45%;
+left: 80%;
 transform: translateX(-50%) translateY(-100%) scale(var(--scale));
 transition: 200ms transform;
 transform-origin: bottom left;
@@ -302,8 +301,10 @@ transform-origin: bottom left;
 }
 
 .deviruchi:hover {
-transform: translate3d(0px, 0%, 1em);
-width: 300px;
+
+transform: translate3d(-400px, 0%, 1em);
+transition-duration: 800ms;
+/* width: 300px; */
 }
 .deviruchi:hover::before{
     --scale: 1;
