@@ -429,6 +429,12 @@ grid-area: five;
 /* back to working pls don't break again! */
 
 /* Discover Navigation Bar */
+.discover-card {
+    position: sticky;
+    /* margin-top: 10%; */
+    top: 175px;
+    z-index: -2;
+}
 
 #button-container {
     /* position: sticky; */
@@ -445,7 +451,7 @@ grid-area: five;
     "b4 b5 b6"
     "b7 b8 b9";
 
-gap: 5px;
+gap: 10px;
 
 
 }
@@ -453,8 +459,9 @@ gap: 5px;
 
 .discover-txt {
     color:rgba(17, 4, 17, 0.788);
-    margin-bottom: 25%;
-    margin-left: 45%;
+    margin-bottom: 15%;
+    position: absolute;
+    right: 100px;
     font-weight: bolder;
     font-size: larger;
     text-transform: uppercase;
@@ -466,12 +473,13 @@ gap: 5px;
 /* position: sticky; */
 justify-self: center;
 
-padding: 5px;
+padding: 3px;
+
 background-color: transparent;
 border-color:#326c7b28;
 border-radius: .4em;
 border: width 0.1em;
-margin: 1px;
+
 }
 
 
