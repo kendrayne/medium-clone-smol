@@ -302,7 +302,7 @@ transform-origin: bottom left;
 
 .deviruchi:hover {
 
-transform: translate3d(-400px, 0%, 1em);
+transform: translate3d(-350px, 0%, 1em);
 transition-duration:700ms;
 /* width: 300px; */
 }
