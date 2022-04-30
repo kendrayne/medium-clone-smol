@@ -326,7 +326,7 @@ sans-serif;
     grid-template-columns: repeat(3, 425px);
     justify-content:space-evenly;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 150px;
 
     grid-template-areas:
     "one two three"
