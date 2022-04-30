@@ -516,7 +516,7 @@ color:#5615568e;
 
 
 #button-container > a:hover,
-a > .b:hover {
+#button-container > a > .b:hover {
 background-color:#561556d1;
 color: white;
 transition-duration: 400ms;
