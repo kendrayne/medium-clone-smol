@@ -251,7 +251,6 @@ margin-left: -200px;
 
     margin-top: 75px;
     opacity: .94;
-    /* z-index: 0; */
 }
 
 a:hover {
@@ -433,7 +432,7 @@ grid-area: five;
     position: sticky;
     /* margin-top: 10%; */
     top: 200px;
-    z-index: -2;
+    /* z-index: ; */
 }
 
 #button-container {
@@ -473,7 +472,7 @@ gap: 3px;
 }
 
 
-#button-container > .b {
+#button-container > a > .b {
 
 width:max-content;
 padding: 3px;
@@ -483,6 +482,11 @@ border-color:#326c7b28;
 border-radius: .4em;
 border: width 0.1em;
 
+}
+
+#button-container > .b a {
+    text-decoration: none;
+    color: black;
 }
 
 
