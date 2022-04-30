@@ -465,6 +465,7 @@ grid-area: five;
 
 #discover > .button-container {
 position: relative;
+top: 50px;
 left: 125px;
 }
 
