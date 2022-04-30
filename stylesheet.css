@@ -259,7 +259,10 @@ a:hover {
 }
 .readbutton:hover,
 .gs-button:hover {
-    background-color: rgb(70, 14, 70)
+    background-color: rgb(70, 14, 70);
+    transition-duration: 500ms;
+
+
 }
 .readbutton a,
 .gs-button a {
