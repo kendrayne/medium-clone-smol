@@ -476,7 +476,11 @@ grid-area: five;
 } */
 #discover > .button-container > .b {
 padding: 5px;
+background-color: transparent;
+border-color:#326c7b95;
+border-radius: .5em;
 }
+
 #discover > .b1 {
     grid-area: b1;
 }
