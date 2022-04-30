@@ -360,7 +360,7 @@ sans-serif;
     }
     .inner-grid h3 {
         margin-left: -15px;
-        word-spacing: 
+
     }
 
    .inner-grid .ttxt {
@@ -372,7 +372,7 @@ sans-serif;
     }
 
     .avatar {
-        width: 50px;
+        width: 40px;
     }
 #trending > .one {
     grid-area: one;
