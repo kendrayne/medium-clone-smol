@@ -474,37 +474,6 @@ border: width 0.1em;
 margin: 1px;
 }
 
-#button-container > .b.bone {
-    grid-area: b1;
-    position: fixed;
-    top: 0;
-}
-#button-container> .b.btwo {
-    grid-area: b2;
-}
-#button-container> .b.bthree {
-    grid-area: b3;
-}
-#button-container > .b.bfour {
-    grid-area: b4;
-}
-#button-container > .b.bfive {
-    grid-area: b5;
-}
-#button-container > .b.bsix {
-    grid-area: b6;
-}
-#discover > .b.bseven {
-    grid-area: b7;
-}
-#discover > .b.beight {
-    grid-area: b8;
-}
-#discover > .b.bnine {
-    grid-area: b9;
-}
-
-
 
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
