@@ -446,7 +446,6 @@ grid-area: five;
 
 }
 
-.button-container
 
 .discover-txt {
     color:rgba(17, 4, 17, 0.788);
@@ -457,7 +456,7 @@ grid-area: five;
     text-transform: uppercase;
     width:max-content;
 }
-#discover > .button-container {
+/* #discover > .button-container {
     display: grid;
     grid-template-rows: repeat(3, 40px);
     grid-template-columns: repeat(3, 155px);
@@ -470,10 +469,10 @@ grid-area: five;
     "b7 b8 b9";
     gap: 5px;
 
-}
-#discover > .button-container > .b {
-    
-}
+} */
+/* #discover > .button-container > .b {
+
+} */
 #discover > .b1 {
     grid-area: b1;
 }
