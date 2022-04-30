@@ -448,6 +448,7 @@ grid-area: five;
     gap: 75px;
 
 
+
 }
 
 
@@ -480,6 +481,7 @@ background-color: transparent;
 border-color:#326c7b28;
 border-radius: .5em;
 border: width 0.1em;
+margin: 1px;
 }
 
 #discover > .b1 {
