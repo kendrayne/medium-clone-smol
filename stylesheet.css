@@ -290,13 +290,13 @@ a:hover {
 .trending-icon {
     width: 50px;
     position: relative;
-    left: 120px;
-    bottom: 4px;
+    left: 140px;
+    bottom: 10px;
 
 }
 .trending-txt {
     position: absolute;
-    left: 195px;
+    left: 220px;
 
     top: 730px;
     margin-top: 60px;
@@ -324,9 +324,9 @@ sans-serif;
 
     display: grid;
     grid-template-rows: repeat(2, 255px);
-    grid-template-columns: repeat(3, 350px);
-    justify-content: space-evenly;
-    align-items: baseline;
+    grid-template-columns: repeat(3, 500px);
+    justify-content:space-evenly;
+
     /* justify-self:center; */
     grid-template-areas:
     "one two three"
