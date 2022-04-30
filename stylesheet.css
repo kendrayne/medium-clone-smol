@@ -446,7 +446,7 @@ grid-area: five;
 
 }
 
-
+.button-container
 
 .discover-txt {
     color:rgba(17, 4, 17, 0.788);
@@ -472,7 +472,7 @@ grid-area: five;
 
 }
 #discover > .button-container > .b {
-    padding: 10px;
+    
 }
 #discover > .b1 {
     grid-area: b1;
