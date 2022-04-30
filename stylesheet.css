@@ -520,6 +520,8 @@ a > .b:hover {
 background-color:#561556d1;
 color: white;
 transition-duration: 400ms;
+border-radius: .4em;
+border: width 0.1em;
 }
 
 
