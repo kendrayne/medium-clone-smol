@@ -474,9 +474,9 @@ grid-area: five;
     gap: 5px;
 
 } */
-/* #discover > .button-container > .b {
-
-} */
+#discover > .button-container > .b {
+padding: 5px;
+}
 #discover > .b1 {
     grid-area: b1;
 }
@@ -504,6 +504,8 @@ grid-area: five;
 #discover > .b9 {
     grid-area: b9;
 }
+
+
 
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
