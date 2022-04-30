@@ -288,7 +288,7 @@ position: absolute;
 top: 4rem;
 left: 80%;
 transform: translateX(-50%) translateY(-100%) scale(var(--scale));
-transition: 200ms transform;
+transition: 300ms transform;
 transform-origin: bottom left;
 }
 .deviruchi::before {
