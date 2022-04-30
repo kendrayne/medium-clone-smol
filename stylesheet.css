@@ -285,7 +285,7 @@ a:hover {
 
 
 .spacer {
-    padding: 40px 0px 16px;
+    padding: 80px 0px 16px;
 }
 .trending-icon {
     width: 50px;
@@ -334,7 +334,7 @@ sans-serif;
     "four five six";
 
     gap: 50px;
-
+    /* grid-template-rows: repeat(2, 300px); */
     list-style: none;
 
     }
