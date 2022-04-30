@@ -294,7 +294,7 @@ transform-origin: bottom left;
 .deviruchi::before {
     content: attr(data-tooltip);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20pt;
+    font-size: 18pt;
     color:#561556;
     width: max-content;
     max-width: 100%;
