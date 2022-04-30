@@ -432,7 +432,7 @@ grid-area: five;
 .discover-card {
     position: sticky;
     /* margin-top: 10%; */
-    top: 175px;
+    top: 200px;
     z-index: -2;
 }
 
@@ -445,7 +445,7 @@ grid-area: five;
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: 10%;
-    margin-right: 5%;
+    margin-right: 7%;
     grid-template-areas:
     "b1 b2 b3"
     "b4 b5 b6"
@@ -459,13 +459,15 @@ gap: 10px;
 
 .discover-txt {
     color:rgba(17, 4, 17, 0.788);
-    margin-bottom: 15%;
+    /* margin-bottom: 25%; */
     position: absolute;
+    bottom: 100px;
     right: 100px;
     font-weight: bolder;
-    font-size: larger;
+    font-size: 12pt;
     text-transform: uppercase;
     width:max-content;
+
 }
 
 
