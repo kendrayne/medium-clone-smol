@@ -276,6 +276,9 @@ a:hover {
 
     text-decoration: none;
 }
+
+
+/* DEVIRUCHI */
 .deviruchi {
     position:absolute;
     top: 460px;
@@ -295,6 +298,7 @@ transform-origin: bottom left;
 .deviruchi::before {
     content: attr(data-tooltip);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     font-size: 14pt;
     color:#561556;
     width: max-content;
@@ -310,6 +314,10 @@ transition-duration:700ms;
 .deviruchi:hover::before{
     --scale: 1;
 }
+
+
+/* ^^^ DEVIRUCHI ^^^*/
+
 
 /* no tocar */
 
@@ -569,7 +577,7 @@ font-size: 14pt;
 /* MISC TAGS */
 
 .bookmark-icon {
-    width: 6%;
+    width: 5%;
     margin-left: 500px;
     position: relative;
     bottom: 52px;
