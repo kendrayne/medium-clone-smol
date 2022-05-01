@@ -472,7 +472,6 @@ grid-area: five;
     grid-template-rows: repeat(3, 25px);
     grid-template-columns: repeat(3, 125px);
     justify-content: flex-end;
-
     margin-top: 10%;
     margin-right: 7%;
     grid-template-areas:
@@ -530,12 +529,51 @@ border: width 0.1em;
     background-color:#561556d1;
 }
 
+
+#articles-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 600px);
+    grid-template-rows: repeat(6, 200px);
+    max-width: fit-content;
+
+    margin-top: -11%;
+    margin-left: 6%;
+    grid-template-areas:
+    "a1"
+    "a2"
+    "a3"
+    "a4"
+    "a5"
+    "a6";
+
+
+    gap: 3px;
+
+}
+
+
+
+
+
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 position:static;
 margin-left: 45%;
 margin-top: 15%;
 font-size: 14pt;
+}
+
+
+
+
+/* MISC TAGS */
+
+.bookmark-icon {
+    width: 6%;
+    margin-left: 500px;
+    position: relative;
+    bottom: 52px;
+
 }
 
 .scroll {
