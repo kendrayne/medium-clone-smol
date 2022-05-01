@@ -1,4 +1,6 @@
-var beepOne = $("#deviruch")[0];
-$("#deviruch").mouseenter(function () {
-  beepOne.play();
+let deviruchi = document.querySelector(".deviruchi");
+let audio = document.getElementsByID("#deviruch");
+
+deviruchi.addEventListener("mouseenter", () => {
+  audio[0].play();
 });
