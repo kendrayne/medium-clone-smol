@@ -468,7 +468,7 @@ grid-area: five;
 /* Discover Navigation Bar */
 .discover-card {
     position: sticky;
-margin-left: -70%;
+margin-left: -100%;
     top: 200px;
 
 }
