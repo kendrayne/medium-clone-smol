@@ -554,11 +554,19 @@ border: width 0.1em;
     "a5"
     "a6";
 
-
     gap: 3px;
 
 }
 
+.aricle > a.author {
+    text-decoration: none;
+}
+
+.article > a {
+    font-size: 12pt;
+    text-decoration: none;
+    color:#326c7b;
+}
 
 
 
