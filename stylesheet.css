@@ -578,7 +578,7 @@ border: width 0.1em;
     font-size: 14pt;
     text-decoration: none;
     color:#326c7b;
-    /* z-index: 20; */
+    z-index: 20;
 }
 
 
