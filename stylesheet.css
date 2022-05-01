@@ -47,18 +47,15 @@
     #trending>.one {
         grid-area: one;
 
-        /* grid-row: 1/2; */
-        /* grid-area: one; */
 
     }
 
     #trending>.two {
-        /* grid-column: 2/3;
-        grid-row: 1/2; */
+
         grid-area: two;
 
 
-        /* grid-area: two; */
+
     }
 
     #trending>.three {
@@ -100,7 +97,7 @@
 @media only screen and (min-width: 600px) {
 
 body {
-    /* max-width: fit-content; */
+
     overflow-x: hidden;
 font-family: Roboto,
 -apple-system,
@@ -124,7 +121,7 @@ margin-right: 0px;
     border-width: 2px;
     margin-top: -98px;
     margin-left: -18px;
-    /* padding-right: 100%; */
+
     padding-bottom: 40px;
     padding-right: 100%;
     background-color: #ffc017;
@@ -177,7 +174,7 @@ color: black;
     color: white;
     font-size: 13pt;
     background-color: rgb(0, 0, 0);
-    /* position: fixed; */
+
     right: 250px;
 margin-top: -12px;
 margin-left: 20px;
@@ -255,7 +252,7 @@ margin-left: -200px;
 }
 
 a:hover {
-        /* background-color: rgb(50, 9, 50); */
+
         color: #561556
 }
 .readbutton:hover,
@@ -309,7 +306,7 @@ transform-origin: bottom left;
 
 transform: translate3d(-350px, 0%, 1em);
 transition-duration:700ms;
-/* width: 300px; */
+
 }
 .deviruchi:hover::before{
     --scale: 1;
@@ -419,18 +416,14 @@ sans-serif;
 #trending > .one {
     grid-area: one;
 
-    /* grid-row: 1/2; */
-    /* grid-area: one; */
+
 
 }
 
 #trending > .two {
-    /* grid-column: 2/3;
-    grid-row: 1/2; */
+
     grid-area: two;
 
-
-    /* grid-area: two; */
 }
 
 #trending > .three {
