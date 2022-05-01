@@ -546,12 +546,13 @@ margin-top: 30px;
 border-width: 1px;
 border-color: rgba(178, 179, 179, 0.675);
 position: sticky;
+top: 0;
 
 }
 .lower-navbar-container {
 
     position: sticky;
-    top: 200px;
+    top: 335px;
 }
 .links {
     display: flex;
