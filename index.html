@@ -31,8 +31,17 @@
             from writers on any topic. But not on your mobile device because I haven't gotten there yet, thanks 😂 </h2>
         <a href="#"><button class="readbutton">Start reading</a></button>
         <div class="deviruchi" data-tooltip="no touchy!">
+<audio id="deviruch" preload="auto">
+  <source src="./sounds/deviruchi_idle.mp3"></source>
 
+</audio>
+<script> let sound = $("#deviruch")[0];
+$("#deviruch").mouseenter(function() {
+		sound.play();
+	});
+    </script>
         <img src="./images/deviruchi.gif">
+
         </div>
     </div>
 
