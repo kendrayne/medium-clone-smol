@@ -608,13 +608,18 @@ color:#326c7b;
 }
 
 .article > .title > a {
-    font-size: 14pt;
+    font-size: 12pt;
     text-decoration: none;
     color:#326c7b;
-    z-index: 20;
+
 }
 
+.article>.title>a:hover {
+    font-size: 12pt;
+    text-decoration: none;
+    color:#561556;
 
+}
 
 
 footer {
