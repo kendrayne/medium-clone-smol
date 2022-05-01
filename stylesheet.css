@@ -468,7 +468,7 @@ grid-area: five;
 /* Discover Navigation Bar */
 .discover-card {
     position: sticky;
-
+margin-left: -50%;
     top: 200px;
 
 }
@@ -482,7 +482,7 @@ grid-area: five;
     justify-content: flex-end;
     margin-top: 10%;
     margin-right: 7%;
-    margin-left: -50%;
+
     grid-template-areas:
     "b1 b2 b3"
     "b4 b5 b6"
