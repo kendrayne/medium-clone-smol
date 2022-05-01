@@ -459,19 +459,19 @@ grid-area: five;
 /* Discover Navigation Bar */
 .discover-card {
     position: sticky;
-    /* margin-top: 10%; */
+
     top: 200px;
-    /* z-index: ; */
+
 }
 
 #button-container {
-    /* position: sticky; */
+
 
     display: grid;
     grid-template-rows: repeat(3, 25px);
     grid-template-columns: repeat(3, 125px);
     justify-content: flex-end;
-    align-items: flex-end;
+
     margin-top: 10%;
     margin-right: 7%;
     grid-template-areas:
@@ -500,30 +500,34 @@ gap: 3px;
 
 }
 
-
-#button-container > a > .b {
-
+#button-container > .b,
+#button-container > .b > a {
+text-decoration: none;
 width:max-content;
-padding: 3px;
-width: 100%;
+padding: 4px;
+
 background-color: transparent;
 border-color:#326c7b28;
 border-radius: .4em;
 border: width 0.1em;
-color:#2b0b2b8e;
+color:#2b0b2bae;
 }
 
 
 
-#button-container > a:hover,
-#button-container > a > .b:hover {
-background-color:#561556d1;
+#button-container > .b:hover,
+#button-container > .b > a:hover {
+    text-decoration: none;
+    width:max-content;
 color: white;
 transition-duration: 400ms;
 border-radius: .4em;
 border: width 0.1em;
 }
 
+#button-container > .b:hover {
+    background-color:#561556d1;
+}
 
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
