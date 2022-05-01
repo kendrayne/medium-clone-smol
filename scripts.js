@@ -1,6 +1,4 @@
-let deviruchi = document.querySelector(".deviruchi");
-let audio = document.getElementsByID("#deviruch");
-
-deviruchi.addEventListener("mouseenter", () => {
-  audio[0].play();
+let deviruchi = $("#deviruch")[0];
+$(".deviruchi").onmouseenter(function () {
+    deviruchi.play();
 });
