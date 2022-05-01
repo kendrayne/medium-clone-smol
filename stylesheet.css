@@ -556,7 +556,7 @@ border: width 0.1em;
     "a6";
 
     gap: 3px;
-    z-index: -2;
+    z-index: 0;
 }
 
 .article > .author > a {
