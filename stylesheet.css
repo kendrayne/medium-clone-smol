@@ -469,7 +469,7 @@ grid-area: five;
 .discover-card {
     position: sticky;
     top: 200px;
-z-index: -1;
+
 }
 
 #button-container {
@@ -488,7 +488,7 @@ z-index: -1;
     "b7 b8 b9";
     margin-inline-start: 60%;
 gap: 3px;
-z-index: -1;
+
 
 
 }
@@ -556,7 +556,7 @@ border: width 0.1em;
     "a6";
 
     gap: 3px;
-    z-index: 1;
+ 
 }
 
 .article > .author > a {
