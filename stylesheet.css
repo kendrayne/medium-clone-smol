@@ -574,8 +574,8 @@ border: width 0.1em;
     sans-serif;
 }
 
-.article > a {
-    font-size: 12pt;
+.article > .title > a {
+    font-size: 14pt;
     text-decoration: none;
     color:#326c7b;
     /* z-index: 20; */
