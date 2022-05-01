@@ -552,7 +552,7 @@ top: 0;
 .lower-navbar-container {
 
     position: sticky;
-    top: 315px;
+    top: 300px;
 }
 .links {
     display: flex;
