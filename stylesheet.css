@@ -482,7 +482,7 @@ border-collapse:collapse;
     justify-content: flex-end;
     margin-top: 10%;
     margin-right: 7%;
-    padding-left: -50%;
+    padding-left: -40%;
     grid-template-areas:
     "b1 b2 b3"
     "b4 b5 b6"
