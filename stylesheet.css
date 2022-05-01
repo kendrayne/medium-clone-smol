@@ -475,7 +475,7 @@ border-collapse:collapse;
 
 #button-container {
 
-
+    width: 50%;
     display: grid;
     grid-template-rows: repeat(3, 25px);
     grid-template-columns: repeat(3, 125px);
