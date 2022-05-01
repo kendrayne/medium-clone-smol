@@ -570,7 +570,7 @@ color:#326c7b;
 
 
 
-/* articles section */
+/* ARTICLES SECTION */
 #articles-grid {
     display: grid;
     grid-template-columns: repeat(1, 600px);
