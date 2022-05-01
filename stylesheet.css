@@ -544,7 +544,7 @@ border: width 0.1em;
     grid-template-rows: repeat(6, 200px);
     max-width: fit-content;
 
-    margin-top: -13%;
+    margin-top: -8%;
     margin-left: 2%;
     grid-template-areas:
     "a1"
