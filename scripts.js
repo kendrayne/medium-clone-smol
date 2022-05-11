@@ -15,8 +15,9 @@ function playSound() {
       // .catch((e) => console.error(e.message, "Now, click here and try again"));
   });
 }
+window.onload = playSound;
 
-function handlePlayButton() {
+function handlePlay() {
   if (sound.paused) {
     sound.play();
   }
