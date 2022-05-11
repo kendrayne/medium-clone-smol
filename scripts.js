@@ -1,10 +1,14 @@
-// var sound = document.getElementById("deviruch");
+// const sound = document.getElementById("deviruch");
+const sound = "/Users/kendra/Desktop/medium-clone-proj/sounds/deviruchi_idle.mp3"
+const deviruchi = document.getElementsByClassName("deviruchi");
 
+function playSound() {
+  deviruchi.addEventListener("onmouseover", (e) => {
+    sound
+      .play()
+      .catch((e) => console.error(e.message, "Now, click here and try again"));
 
-// function playSound() {
-//   sound.play();
-// }
-
-deviruchi.addEventListener("mouseenter", (e) => {
-  deviruch.play().catch((er) => console.error(er.message, "Now, click here and try again"));
-});
+  })
+}
+// window.onfocus = playSound();
+// window.onfocus = playSound();
