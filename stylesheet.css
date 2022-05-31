@@ -507,7 +507,9 @@ gap: 3px;
 text-decoration: none;
 width:max-content;
 padding: 4px;
-
+gap: 500px;
+margin-bottom: 50px;
+padding-bottom: 20px;
 background-color: transparent;
 border-color:#326c7b28;
 border-radius: .4em;
